@@ -9,8 +9,23 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="netpie.io.myshop.MainActivity">
 
-    <TextView
+    <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Sign In"
+        android:id="@+id/signin"
+        android:layout_marginRight="85dp"
+        android:layout_marginEnd="85dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/signup"
+        android:layout_alignTop="@+id/signin"
+        android:layout_toLeftOf="@+id/signin"
+        android:layout_toStartOf="@+id/signin" />
 </RelativeLayout>
